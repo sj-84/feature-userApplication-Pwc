@@ -1,0 +1,28 @@
+.info_header {
+    width: 100%;
+    background-color: #3366cc;
+    padding: 15px;
+    box-sizing: border-box;
+    font: 1.2rem arial;
+    color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+}
+
+.info_items {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+}
+
+.info_item_date {
+    float: right;
+    padding: 10px;
+}
+
+a:link,
+a:visited {
+    color: white;
+    cursor: pointer;
+}

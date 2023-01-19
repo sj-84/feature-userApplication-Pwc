@@ -1,0 +1,20 @@
+<table class="tableInfo">
+  <tr>
+    <th>Name</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Phone number</th>
+    <th>Company</th>
+  </tr>
+
+  <tr *ngFor="let userDetail of userInfo">
+    <td>{{userDetail.name}}</td>
+    <td>{{userDetail.username}}</td>
+    <td>{{userDetail.email}}</td>
+    <td>{{userDetail.address?.suite+' '+userDetail.address?.street+' '+userDetail.address?.city+'
+      '+userDetail.address?.zipcode}}</td>
+    <td>{{userDetail.phone}}</td>
+    <td>{{userDetail.company?.name}}</td>
+  </tr>
+</table>
